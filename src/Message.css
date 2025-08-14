@@ -1,0 +1,30 @@
+.message {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.message__user {
+  justify-content: flex-end;
+}
+
+.message__userCard {
+  background-color: #0b81ff !important;
+  color: white;
+}
+
+.message__guestCard {
+  background-color: #f1f0f0 !important;
+  color: black;
+}
+
+/* DARK MODE SUPPORT */
+.dark-mode .message__guestCard {
+  background-color: #444 !important;
+  color: white;
+}
+
+.dark-mode .message__userCard {
+  background-color: #1a73e8 !important;
+  color: white;
+}
